@@ -1,4 +1,4 @@
-function getMilk(bottles) {
+function getMilk(dollars) {
   console.log("leaveHouse");
   console.log("moveRight");
   console.log("moveRight");
@@ -8,7 +8,6 @@ function getMilk(bottles) {
   console.log("moveUp");
   console.log("moveRight");
   console.log("moveRight");
-  var dollars = "prompt("How many dollars you have?")";
   var bottles = dollars % 1.5;
   console.log("Buy " + bottles + " bottles of milk!")
   console.log("moveLeft");
@@ -22,4 +21,4 @@ function getMilk(bottles) {
   console.log("enterHouse");
 }
 
-getMilk(bottles)
+getMilk(dollars)
