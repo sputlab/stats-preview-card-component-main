@@ -9,7 +9,7 @@ function getMilk(bottles) {
   console.log("moveRight");
   console.log("moveRight");
   var dollars = prompt("How many dollars you have?");
-  var bottles = dollars % 3;
+  var bottles = dollars % 1,5;
   console.log("Buy " + bottles + " bottles of milk!")
   console.log("moveLeft");
   console.log("moveLeft");
