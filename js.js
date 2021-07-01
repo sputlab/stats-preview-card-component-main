@@ -1,4 +1,4 @@
-function getMilk() {
+function getMilk(bottles) {
   console.log("leaveHouse");
   console.log("moveRight");
   console.log("moveRight");
